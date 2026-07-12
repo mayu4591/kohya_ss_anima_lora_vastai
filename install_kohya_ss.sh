@@ -61,3 +61,5 @@ if [ ! -d "./kohya_ss_anima_lora_vastai" ]; then
 fi
 
 cp -r /workspace/kohya_ss_anima_lora_vastai/script/* /workspace/
+cd /workspace
+bash exec.sh
