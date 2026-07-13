@@ -1,6 +1,8 @@
 #!/bin/bash
 cd /workspace
 
+source /venv/main/bin/activate
+
 if [ ! -d "/workspace/sd-scripts" ]; then
     git clone https://github.com/kohya-ss/sd-scripts.git /workspace/sd-scripts
 fi
